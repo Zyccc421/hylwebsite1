@@ -545,12 +545,41 @@
                                     <p><strong>基克纳 AC Day 卡牌游戏</strong><br>
                                     从0到1研发“星球探索”主题原创桌游，旨在解决面试中精准观察能力的痛点。将品牌调性与年轻审美融合，现已打磨为公司可复用的标准化商业产品。</p>
                                 </div>
-                                <div class="grid grid-cols-2 sm:grid-cols-5 gap-4">
-                                    <a href="../images/project-geekvape-1.jpg" data-fancybox="gallery-product"><img src="../images/project-geekvape-1.jpg" class="rounded-lg shadow-sm w-full h-auto object-cover" alt="Card 1"></a>
-                                    <a href="../images/project-geekvape-2.jpg" data-fancybox="gallery-product"><img src="../images/project-geekvape-2.jpg" class="rounded-lg shadow-sm w-full h-auto object-cover" alt="Card 2"></a>
-                                    <a href="../images/project-geekvape-3.jpg" data-fancybox="gallery-product"><img src="../images/project-geekvape-3.jpg" class="rounded-lg shadow-sm w-full h-auto object-cover" alt="Card 3"></a>
-                                    <a href="../images/project-geekvape-4.jpg" data-fancybox="gallery-product"><img src="../images/project-geekvape-4.jpg" class="rounded-lg shadow-sm w-full h-auto object-cover" alt="Card 4"></a>
-                                    <a href="../images/project-geekvape-5.jpg" data-fancybox="gallery-product"><img src="../images/project-geekvape-5.jpg" class="rounded-lg shadow-sm w-full h-auto object-cover" alt="Card 5"></a>
+                                
+                                <!-- 🌟 6张图的 Bento Box 完美拼图布局 -->
+                                <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
+                                    
+                                    <!-- 1. 图1: 宽屏 Banner (横跨 2列) -->
+                                    <a href="../images/project-geekvape-1.jpg" data-fancybox="gallery-product" class="md:col-span-2 block rounded-xl overflow-hidden shadow-sm group">
+                                        <img src="../images/project-geekvape-1.jpg" class="w-full h-full object-cover aspect-[21/9] group-hover:scale-105 transition-transform duration-500" alt="项目 Banner">
+                                    </a>
+
+                                    <!-- 2. 图4: 竖向地图 (占 1列，向下跨越 2行) 
+                                        ⚠️ 注意：为了拼图严丝合缝，在 HTML 中把高竖图放在第2个位置，它会自动贴在右上角 -->
+                                    <a href="../images/project-geekvape-4.jpg" data-fancybox="gallery-product" class="md:col-span-1 md:row-span-2 block rounded-xl overflow-hidden shadow-sm group">
+                                        <img src="../images/project-geekvape-4.jpg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="游戏地图">
+                                    </a>
+
+                                    <!-- 3. 图2: 规则册 1 (占 1列，自动填补在地图左侧) -->
+                                    <a href="../images/project-geekvape-2.jpg" data-fancybox="gallery-product" class="md:col-span-1 block rounded-xl overflow-hidden shadow-sm group">
+                                        <img src="../images/project-geekvape-2.jpg" class="w-full h-full object-cover aspect-video group-hover:scale-105 transition-transform duration-500" alt="规则册 1">
+                                    </a>
+
+                                    <!-- 4. 图3: 规则册 2 (占 1列，自动填补在地图左侧) -->
+                                    <a href="../images/project-geekvape-3.jpg" data-fancybox="gallery-product" class="md:col-span-1 block rounded-xl overflow-hidden shadow-sm group">
+                                        <img src="../images/project-geekvape-3.jpg" class="w-full h-full object-cover aspect-video group-hover:scale-105 transition-transform duration-500" alt="规则册 2">
+                                    </a>
+
+                                    <!-- 5. 图5: 卡牌合集 1 (横跨 2列，位于最底部左侧) -->
+                                    <a href="../images/project-geekvape-5.jpg" data-fancybox="gallery-product" class="md:col-span-2 block rounded-xl overflow-hidden shadow-sm group">
+                                        <img src="../images/project-geekvape-5.jpg" class="w-full h-full object-cover aspect-[21/9] group-hover:scale-105 transition-transform duration-500" alt="卡牌展示">
+                                    </a>
+
+                                    <!-- 6. 图6: 新增图片 (占 1列，位于最底部右侧，完美收尾) -->
+                                    <a href="../images/project-geekvape-6.jpg" data-fancybox="gallery-product" class="md:col-span-1 block rounded-xl overflow-hidden shadow-sm group">
+                                        <img src="../images/project-geekvape-6.jpg" class="w-full h-full object-cover aspect-video md:aspect-auto group-hover:scale-105 transition-transform duration-500" alt="卡牌细节">
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
